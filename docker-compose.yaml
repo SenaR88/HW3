@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  nginx: 
+   image: senar88/lesson2:v1  
+   restart: always
+   ports: 
+       - "80:8080" 
